@@ -1,9 +1,9 @@
 {
-  "name": "helioslauncher",
+  "name": "commandlauncher",
   "version": "2.2.1",
-  "productName": "Helios Launcher",
+  "productName": "Command Launcher",
   "description": "Modded Minecraft Launcher",
-  "author": "Daniel Scalzi (https://github.com/dscalzi/)",
+  "author": "Firepdx (https://github.com/dscalzi/)",
   "license": "UNLICENSED",
   "homepage": "https://github.com/dscalzi/HeliosLauncher",
   "bugs": {
