@@ -401,6 +401,19 @@ exports.addMicrosoftAuthAccount = function(uuid, accessToken, name, mcExpires, m
     return config.authenticationDatabase[uuid]
 }
 
+exports.addOfflineAuthAccount = function(username) {
+    const uuid = 'OfflinePlayer:' + username
+    config.selectedAccount = uuid
+    config.authenticationDatabase[uuid] = {
+        type: 'offline',
+        accessToken: 'offline',
+        username: username.trim(),
+        uuid: uuid,
+        displayName: username.trim()
+    }
+    return config.authenticationDatabase[uuid]
+}
+
 /**
  * Remove an authenticated account from the database. If the account
  * was also the selected account, a new one will be selected. If there
