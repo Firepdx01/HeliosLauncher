@@ -149,7 +149,11 @@ function updateSelectedAccount(authUser){
             username = authUser.displayName
         }
         if(authUser.uuid != null){
-            document.getElementById('avatarContainer').style.backgroundImage = `url('https://mc-heads.net/body/${authUser.uuid}/right')`
+            if(authUser.type === 'offline') {
+                document.getElementById('avatarContainer').style.backgroundImage = `url('https://mc-heads.net/avatar/MHF_Steve/right')`
+            } else {
+                document.getElementById('avatarContainer').style.backgroundImage = `url('https://mc-heads.net/body/${authUser.uuid}/right')`
+            }
         }
     }
     user_text.innerHTML = username
