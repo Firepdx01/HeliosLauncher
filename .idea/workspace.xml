@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="70c82b1f-f18d-4c33-a97b-3260e96aaed6" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/app/app.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/css/launcher.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/css/launcher.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/icons/arrow.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/icons/arrow.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/icons/discord.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/icons/discord.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/icons/instagram.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/icons/instagram.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/icons/link.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/icons/link.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/icons/lock.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/icons/lock.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/icons/microsoft.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/icons/microsoft.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/icons/mojang.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/icons/mojang.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/icons/news.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/icons/news.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/icons/profile.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/icons/profile.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/icons/settings.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/icons/settings.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/icons/sevenstar.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/icons/sevenstar.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/icons/sevenstar_circle.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/icons/sevenstar_circle.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/icons/sevenstar_circle_extended.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/icons/sevenstar_circle_extended.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/icons/sevenstar_circle_hole.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/icons/sevenstar_circle_hole.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/icons/sevenstar_circle_hole_extended.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/icons/sevenstar_circle_hole_extended.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/icons/sevenstar_extended.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/icons/sevenstar_extended.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/icons/x.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/icons/x.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/images/icons/youtube.svg" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/images/icons/youtube.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/js/authmanager.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/js/authmanager.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/js/configmanager.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/js/configmanager.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/js/discordwrapper.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/js/discordwrapper.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/js/distromanager.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/js/distromanager.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/js/dropinmodutil.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/js/dropinmodutil.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/js/ipcconstants.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/js/ipcconstants.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/js/isdev.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/js/isdev.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/js/langloader.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/js/langloader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/js/preloader.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/js/preloader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/js/scripts/landing.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/js/scripts/landing.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/js/scripts/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/js/scripts/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/js/scripts/loginOptions.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/js/scripts/loginOptions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/js/scripts/overlay.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/js/scripts/overlay.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/js/scripts/settings.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/js/scripts/settings.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/js/scripts/uibinder.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/js/scripts/uibinder.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/js/scripts/uicore.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/js/scripts/uicore.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/js/scripts/welcome.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/js/scripts/welcome.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/js/serverstatus.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/js/serverstatus.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/lang/en_US.toml" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/lang/en_US.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/frame.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/app/frame.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/landing.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/app/landing.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/login.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/app/login.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/loginOptions.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/app/loginOptions.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/overlay.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/app/overlay.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/settings.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/app/settings.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/waiting.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/app/waiting.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/welcome.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/app/welcome.ejs" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Firepdx01"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/dscalzi/HeliosLauncher",
+    "accountId": "fc66f06e-23bf-471f-95d0-8cded8095d80"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="346UHwTHP1JMtvBbBCKpZRuNCti" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Command Launcher/HeliosLauncher/app/assets/images",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Command Launcher\HeliosLauncher\app\assets\images" />
+      <recent name="D:\Command Launcher\HeliosLauncher\build" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.26775.15" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.26775.15" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="70c82b1f-f18d-4c33-a97b-3260e96aaed6" name="Changes" comment="" />
+      <created>1760533432184</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1760533432184</updated>
+      <workItem from="1760533433770" duration="2735000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

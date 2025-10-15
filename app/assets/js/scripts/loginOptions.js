@@ -1,6 +1,7 @@
 const loginOptionsCancelContainer = document.getElementById('loginOptionCancelContainer')
 const loginOptionMicrosoft = document.getElementById('loginOptionMicrosoft')
 const loginOptionMojang = document.getElementById('loginOptionMojang')
+const loginOptionOffline = document.getElementById('loginOptionOffline')
 const loginOptionsCancelButton = document.getElementById('loginOptionCancelButton')
 
 let loginOptionsCancellable = false
@@ -34,6 +35,26 @@ loginOptionMojang.onclick = (e) => {
         loginViewOnCancel = loginOptionsViewOnLoginCancel
         loginCancelEnabled(true)
     })
+}
+
+loginOptionOffline.onclick = (e) => {
+    const username = prompt('Enter your offline username:')
+    if(username) {
+        AuthManager.addOfflineAccount(username).then((value) => {
+            updateSelectedAccount(value)
+            switchView(getCurrentView(), loginOptionsViewOnLoginSuccess, 500, 500, async () => {
+                if(loginOptionsViewOnLoginSuccess === VIEWS.settings){
+                    await prepareSettings()
+                }
+            })
+        }).catch((displayableError) => {
+            setOverlayContent(displayableError.title, displayableError.desc, 'OK')
+            setOverlayHandler(() => {
+                toggleOverlay(false)
+            })
+            toggleOverlay(true)
+        })
+    }
 }
 
 loginOptionsCancelButton.onclick = (e) => {

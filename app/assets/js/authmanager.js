@@ -413,13 +413,47 @@ async function validateSelectedMicrosoftAccount(){
  * @returns {Promise.<boolean>} Promise which resolves to true if the access token is valid,
  * otherwise false.
  */
+exports.addOfflineAccount = async function(username) {
+    try {
+        if(!username || username.trim().length === 0) {
+            return Promise.reject({
+                title: 'Invalid Username',
+                desc: 'Please enter a valid username.'
+            })
+        }
+
+        const ret = ConfigManager.addOfflineAuthAccount(username)
+        ConfigManager.save()
+        return ret
+    } catch (err) {
+        log.error('Error while adding offline account', err)
+        return Promise.reject({
+            title: 'Error',
+            desc: 'An error occurred while adding the offline account.'
+        })
+    }
+}
+
+exports.removeOfflineAccount = async function(uuid){
+    try {
+        ConfigManager.removeAuthAccount(uuid)
+        ConfigManager.save()
+        return Promise.resolve()
+    } catch (err){
+        log.error('Error while removing account', err)
+        return Promise.reject(err)
+    }
+}
+
 exports.validateSelected = async function(){
     const current = ConfigManager.getSelectedAccount()
 
     if(current.type === 'microsoft') {
         return await validateSelectedMicrosoftAccount()
+    } else if(current.type === 'offline') {
+        return true
     } else {
         return await validateSelectedMojangAccount()
     }
-    
+
 }
